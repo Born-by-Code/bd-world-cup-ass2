@@ -4,10 +4,51 @@ body{
 
 }
 .heading{
-    border: 5px solid black;
+    border: 5px solid rgb(42, 206, 51);
     border-radius: 5%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding-left: 5%;
 }
-.heading-text, .heading-paragraph, .watch-btn a{
+.heading-text, .heading-paragraph, .fa-solid, .watch-btn a {
     color:white;
+}
+.heading-left{
+    border: 1px solid red;
+    width: 50%;
+    height: 600px;
+}
+.heading-text{
+    width: 50%;
+}
+.heading-text h1{
+    font-size: 4rem;
+}
+.heading-paragraph{
+    width: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+.watch-btn a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.fa-solid{
+    font-size: 2rem;
+    margin-left: 2%;
+}
+.watch-btn {
+    border: 2px solid aqua;
+    display: inline;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 10%;
+   
+}
+.player-img{
+    border: 2px solid blue;
+    margin: 10% 20% 10% 60%;
+}
+.player-img img{
+    
 }
