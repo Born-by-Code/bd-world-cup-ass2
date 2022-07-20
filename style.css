@@ -1,0 +1,13 @@
+body{
+    border: 5px solid red;
+    margin: 5% 5% 0 5%;
+
+}
+.heading{
+    border: 5px solid black;
+    border-radius: 5%;
+    background-color: black;
+}
+.heading-text, .heading-paragraph, .watch-btn a{
+    color:white;
+}
