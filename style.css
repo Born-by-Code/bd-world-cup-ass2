@@ -4,7 +4,7 @@ body{
 
 }
 .heading{
-    border: 5px solid rgb(42, 206, 51);
+    /* border: 5px solid rgb(42, 206, 51); */
     border-radius: 5%;
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -14,20 +14,23 @@ body{
     color:white;
 }
 .heading-left{
-    border: 1px solid red;
-    width: 50%;
+    /* border: 1px solid red; */
+    width: 60%;
     height: 600px;
 }
 .heading-text{
-    width: 50%;
+    width: 70%;
 }
 .heading-text h1{
     font-size: 4rem;
+    /* border: 2px solid red; */
+    width: 100%;
 }
 .heading-paragraph{
-    width: 50%;
+    width: 90%;
     font-size: 1.5rem;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
+    /* border: 2px solid red; */
 }
 .watch-btn a{
     font-size: 2rem;
@@ -38,17 +41,23 @@ body{
     margin-left: 2%;
 }
 .watch-btn {
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     display: inline;
     background-color: rgb(255, 0, 0);
     padding: 20px;
     border-radius: 10%;
    
 }
+.heading-right{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+}
 .player-img{
-    border: 2px solid blue;
-    margin: 10% 20% 10% 60%;
+    /* border: 2px solid blue; */
+    margin: 10% 20% 0% 0%;
 }
 .player-img img{
-    
+    width: 20rem;
+    height: 600px;
+    width: 500px;
 }
