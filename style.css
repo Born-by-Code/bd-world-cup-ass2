@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Ubuntu:wght@500&display=swap');
 body{
-    margin: o%;
+    margin: 0%;
     padding: 0%;
 }
 main{
@@ -113,6 +113,13 @@ main{
       margin-top: 10px;
       font-size:25px;
   }
+  .match a{
+      text-decoration: none;
+      color: black;
+  }
+    .match a:hover{
+      color:rgb(248, 134, 3);
+  }
   .group{
     /* color: white; */
     /* border: 3px solid green; */
@@ -180,4 +187,28 @@ main{
 hr{
     width: 90%;
     opacity: 0.5;
+}
+/* ===================  Up Camming Match
+========================================= */
+
+.flag{
+    display: flex;
+    justify-content: space-between;
+}
+.GvsF{
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.td span p{
+    margin-left: 20px;
+}
+.color{
+    background-color: red;
+    color:white;
+}
+.colorDown{
+    background-color: white;
+    color: black;
+    margin-top: -5px;
 }
